@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DJ Tobi</title>
+  <meta name="description" content="DJ Tobi — Clubs, Hochzeiten & Firmenevents in der Schweiz und Europa." />
+  <style>
+    :root{--bg:#ffffff;--fg:#0f0f0f;--muted:#5a5a5a;--accent:#000}
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:18px/1.7 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+    h1,h2,h3{letter-spacing:.03em;margin:0 0 14px}
+    .wrap{max-width:1100px;margin:0 auto;padding:0 22px}
+    .sep{border-top:1px solid #eaeaea}
+    header{padding:22px 0;text-align:center;border-bottom:1px solid #eee}
+    header h1{font-size:42px;font-weight:900}
+    .hero{padding:24px 0 40px}
+    .hero img{width:100%;height:auto;display:block}
+    /* Alternating blocks */
+    .block{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;padding:40px 0}
+    .block img{width:100%;height:auto;display:block}
+    .center{ text-align:center }
+    .lead{font-size:36px;line-height:1.2;font-weight:900}
+    .smallcap{font-size:13px;letter-spacing:.35em;text-transform:uppercase;color:#444;text-align:center;margin:8px 0 10px}
+    .muted{color:var(--muted)}
+    .refs{background:#f6f6f6;padding:40px 0;margin-top:20px}
+    .refs ul{list-style:none;padding:0;margin:0;line-height:2.1}
+    .contact{padding:50px 0}
+    form{max-width:640px;margin:0 auto}
+    input,textarea{width:100%;padding:14px 16px;border:1px solid #e3e3e3;background:#fafafa;border-radius:4px;font-size:16px}
+    textarea{min-height:150px;resize:vertical}
+    .btn{appearance:none;display:inline-block;background:#111;color:#fff;border:0;padding:14px 26px;letter-spacing:.2em;text-transform:uppercase;border-radius:4px;cursor:pointer}
+    footer{border-top:1px solid #eee;text-align:center;padding:20px 0;color:#777;font-size:15px}
+    @media (max-width: 900px){
+      .block{grid-template-columns:1fr;gap:18px}
+      .lead{font-size:28px}
+      header h1{font-size:32px}
+    }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <h1>WILLKOMMEN BEI DJ TOBI</h1>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <img src="assets/hero.png" alt="DJ Tobi auf der Bühne">
+    </section>
+
+    <section class="wrap block">
+      <div>
+        <div class="lead">ICH BIN EIN DJ DER NICHT EINFACH EIN VORBEREITETES SET RUNTER SPIELT, SONDERN SICH SEHR DARAUF ACHTET WIE DAS PUBLIKUM AUF DIE VERSCHIEDENEN SONGS REAGIERT UND SO DIE LEUTE ZUM TANZEN BRINGT.</div>
+      </div>
+      <div><img src="assets/device.webp" alt=""></div>
+    </section>
+
+    <section class="wrap center" id="about" style="padding:16px 0 10px">
+      <h2 class="smallcap">ÜBER MICH</h2>
+    </section>
+    <section class="wrap block">
+      <div><img src="assets/device.webp" alt=""></div>
+      <div>
+        <p>Seit 12 Jahren mache ich als Dj Musik, ich spiele in Bars, Clubs oder auch Hochzeiten, Firmenevents. Ich spiele hauptsächlich Musik aus den 60s, 70s, 80s, 90, Pop, Funk, Disco, Soul, Rock.</p>
+      </div>
+    </section>
+
+    <section class="wrap block">
+      <div><img src="assets/dj.webp" alt=""></div>
+      <div>
+        <p>Ich werde auch oft in Clubs gebucht, für spezielle Events wo ich aber meinem Musikstyle immer treu geblieben bin.</p>
+      </div>
+    </section>
+
+    <section class="wrap block">
+      <div><img src="assets/gear.webp" alt=""></div>
+      <div>
+        <div class="smallcap">EQUIPMENT</div>
+        <p>Auf wunsch habe ich auch ein professionelles Dj Equipment.</p>
+      </div>
+    </section>
+
+    <section class="wrap block">
+      <div>
+        <p>Musik bedeutet für mich alles und das schon seit klein auf. Privat habe ich auch eine sehr grosse Vinyl Sammlung mit der ich auf Wunsch auch auflegen kann.</p>
+      </div>
+      <div><img src="assets/vinyl.webp" alt=""></div>
+    </section>
+
+    <section class="refs">
+      <div class="wrap center">
+        <div class="smallcap">REFERENZEN</div>
+        <ul>
+          <li>Club Supermarket</li>
+          <li>Club Friedas Büxe</li>
+          <li>Club Hive</li>
+          <li>Babalu Bar</li>
+          <li>Big Ben Westside</li>
+          <li>Old Harrys Pub</li>
+          <li>Brauerei Steinfels</li>
+          <li>Vagabundo Bar</li>
+          <li>und  verschiedene</li>
+          <li>Hochzeiten</li>
+          <li>Firmenevents</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wrap contact" id="contact">
+      <h2 class="center" style="margin-bottom:18px">KONTAKTIERE UNS</h2>
+      <div class="smallcap">E‑MAIL AN UNS</div>
+      <form action="mailto:booking@djtobi.ch" method="post" enctype="text/plain">
+        <p><input type="text" name="name" placeholder="Name"></p>
+        <p><input type="email" name="email" placeholder="E‑Mail*"></p>
+        <p><textarea name="message" placeholder="Nachricht"></textarea></p>
+        <p class="center"><button class="btn" type="submit">Senden</button></p>
+      </form>
+      <div class="center muted" style="font-size:13px;margin-top:10px">Diese Seite verwendet kein Tracking und keinen externen Formular‑Dienst.</div>
+      <div class="center" style="letter-spacing:.4em;margin-top:26px">DJ TOBI</div>
+    </section>
+  </main>
+
+  <footer>
+    <div>Copyright © <span id="y"></span> DJ Tobi - All Rights Reserved.</div>
+    <div style="margin-top:8px"><a href="#">Datenschutzerklärung</a> &nbsp; <a href="#">Impressum / Kontakt</a></div>
+  </footer>
+  <script>document.getElementById('y').textContent=(new Date()).getFullYear();</script>
+</body>
+</html>
